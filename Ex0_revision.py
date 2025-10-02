@@ -24,10 +24,16 @@
 #    - favourite_sport (string)
 #    - favourite_number (integer)
 #    - favourite_food (string)
+favorite_sport = "basketball" 
+favorite_number =11
+favorite_food = "banana"
+print(f"The {favorite_sport}")
 # 2. Print out 3 separate sentences using these variables with f-strings.
 #    For example: "My favourite sport is football."
 #    (Don’t just copy this! Use your own values.)
-
+print(f"My favorite sport is{favorite_sport}")
+print(f"My favorite number is{favorite_number}")
+print(f"My favorite food") is {favorite_food}
 # Step 2: Input Practice (ask the user for answers)
 # -------------------------------------------------
 # We can ask the user questions using input().
@@ -38,7 +44,8 @@
 # 1. Ask the user for their name
 # 2. Store it in a variable called "name"
 # 3. Print a message that says hello to them
-
+name = input("what is your name")
+print(f"Hello,{name}")
 # Step 3: Combine Variables and Input
 # -----------------------------------
 # You can mix input variables with "pre-set" variables.
@@ -53,7 +60,9 @@
 # 1. Create a variable called current_year and set it to 2025
 # 2. Ask the user for their age
 # 3. Print a message showing their age and the current year
-
+current_year = 2025
+age = input ("how old r u?")
+print(f"{age},what current year{current_year},")
 # -------------------------------------------
 # Git Task: Submit your work!
 # -------------------------------------------
